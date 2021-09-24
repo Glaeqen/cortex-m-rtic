@@ -22,7 +22,12 @@ proc-macro2 = "1"
 proc-macro-error = "1"
 quote = "1"
 syn = "1"
-rtic-syntax = "1.0.1"
+indexmap = "1.0.2"
+
+[dependencies.rtic-syntax]
+branch = "actor"
+git = "https://github.com/rtic-rs/rtic-syntax"
 
 [features]
 debugprint = []
+memory-watermark = []
