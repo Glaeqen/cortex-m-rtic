@@ -9,6 +9,8 @@ For each category, *Added*, *Changed*, *Fixed* add new entries at the top!
 
 ### Added
 
+- Support for `async` tasks and idle
+
 ### Fixed
 
 ### Changed
